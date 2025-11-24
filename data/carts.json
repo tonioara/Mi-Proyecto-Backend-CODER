@@ -1,0 +1,32 @@
+[
+  {
+    "id": "546669bb-c451-4e89-894c-0c0f84cd1b7c",
+    "products": [
+      {
+        "productId": "MOU-001",
+        "quantity": 3
+      },
+      {
+        "productId": "Mamma",
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "id": "eab914e6-589b-4f48-ad54-59fdcb515d2b",
+    "products": []
+  },
+  {
+    "id": "b2359c37-4f3b-40e4-abf8-9a56c32e71ae",
+    "products": [
+      {
+        "productId": "P-49321",
+        "quantity": 5
+      },
+      {
+        "productId": "P-58921",
+        "quantity": 2
+      }
+    ]
+  }
+]
