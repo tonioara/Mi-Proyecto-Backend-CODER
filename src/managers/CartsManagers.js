@@ -84,4 +84,3 @@ class CartsManager {
 
 }   
 export const CartsManagerInstancia = new CartsManager("./data/carts.json");
-//export const CartsManagerInstancia = new CartsManager("../data/carts.json"); --- IGNORE ---

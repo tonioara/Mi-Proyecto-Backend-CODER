@@ -10,10 +10,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",        
+  "type": "module",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "express": "^5.1.0",
+    "multer": "^2.0.2",
     "uuidv4": "^6.2.13"
   }
 }
