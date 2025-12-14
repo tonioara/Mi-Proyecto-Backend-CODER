@@ -1,0 +1,76 @@
+<nav style="
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40; /* Gris oscuro */
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+">
+    
+    <div style="flex-shrink: 0;">
+        <a href="/" style="
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s;
+        ">
+            Mi Proyecto Backend 🛒
+        </a>
+    </div>
+
+    <ul style="
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    ">
+        <li style="margin-left: 1.5rem;">
+            <a href="/" style="
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 500;
+                padding: 0.5rem 0.8rem;
+                transition: background-color 0.3s;
+            " onmouseover="this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.backgroundColor='transparent'">
+                Inicio
+            </a>
+        </li>
+        <li style="margin-left: 1.5rem;">
+            <a href="/api/productos" style="
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 500;
+                padding: 0.5rem 0.8rem;
+                transition: background-color 0.3s;
+            " onmouseover="this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.backgroundColor='transparent'">
+                Productos (API)
+            </a>
+        </li>
+        <li style="margin-left: 1.5rem;">
+            <a href="/api/carts" style="
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 500;
+                padding: 0.5rem 0.8rem;
+                transition: background-color 0.3s;
+            " onmouseover="this.style.backgroundColor='rgba(255, 255, 255, 0.1)'" onmouseout="this.style.backgroundColor='transparent'">
+                Carrito (API)
+            </a>
+        </li>
+        <li style="margin-left: 1.5rem;">
+            <a href="/contacto" style="
+                background-color: #007bff; /* Azul primario */
+                color: #ffffff;
+                text-decoration: none;
+                font-weight: 600;
+                padding: 0.5rem 1rem;
+                border-radius: 6px;
+                transition: background-color 0.3s;
+            " onmouseover="this.style.backgroundColor='#0056b3'" onmouseout="this.style.backgroundColor='#007bff'">
+                Contacto
+            </a>
+        </li>
+    </ul>
+</nav>

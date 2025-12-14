@@ -1,0 +1,22 @@
+<h2>Chat en Vivo</h2>
+
+<div id="messagesContainer" style="height: 400px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; margin-bottom: 20px;">
+</div>
+
+<form id="chatForm" style="display: flex; gap: 10px;">
+    <input type="text" id="userEmail" placeholder="Nombre de usuario" required 
+           style="flex: 0.5; padding: 10px; border: 1px solid #aaa;" disabled>
+    
+    <input type="text" id="messageInput" placeholder="Escribe tu mensaje..." required 
+           style="flex: 1; padding: 10px; border: 1px solid #aaa;">
+           
+    <button type="submit" style="padding: 10px 20px; background-color: #007bff; color: white; border: none; cursor: pointer;">
+        Enviar
+    </button>
+</form>
+
+<p id="typingIndicator" style="color: gray; height: 20px;"></p>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/chat.js"></script>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error</title>
+</head>
+<body>
+    <h1>❌ ¡Algo salió mal!</h1>
+    
+    {{#if message}}
+        <p><strong>Detalle del Error:</strong> {{message}}</p>
+    {{else}}
+        <p>Ocurrió un error desconocido al cargar la página.</p>
+    {{/if}}
+
+    <p><a href="/">Volver a la página principal</a></p>
+</body>
+</html>
